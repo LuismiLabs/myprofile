@@ -28,7 +28,7 @@ const profileAssets = {
 
 const cv = {
 	label: "Download CV",
-	file: "/cv/luismilabs-cv.pdf",
+	file: "/cv/Luis-Jimenez-CV.pdf",
 };
 
 // Ventures and investments
@@ -194,35 +194,6 @@ const categories = [
 				class="text-gray-600 dark:text-gray-400"
 				set:html={profileInfo.description}
 			/>
-		</div>
-
-		<!-- CV / Resume -->
-		<div class="max-w-2xl mx-auto mb-12">
-			<div
-				class="flex flex-col items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-6 py-5 text-center shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:flex-row sm:text-left"
-			>
-				<div>
-					<h2
-						class={`text-lg sm:text-xl ${theme.sectionHeadingClass}`}
-					>
-						Resume / CV
-					</h2>
-					<p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-						Want the full picture? Download my CV with experience,
-						skills, and projects.
-					</p>
-				</div>
-				<a
-					href={cv.file}
-					download
-					target="_blank"
-					rel="noopener noreferrer"
-					class="inline-flex items-center justify-center rounded-full bg-gradient-to-r px-5 py-2 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
-				>
-					<i class="fa-solid fa-file-arrow-down mr-2"></i>
-					<span>{cv.label}</span>
-				</a>
-			</div>
 		</div>
 
 		<!-- Social Links -->
@@ -403,6 +374,34 @@ const categories = [
 				</div>
 			</div>
 		</div> -->
+		<!-- CV / Resume -->
+		<div class="max-w-[900px] mx-auto px-4 mb-4">
+			<div
+				class="flex flex-col items-center justify-between gap-4 rounded-xl border border-gray-200 bg-white px-6 py-5 text-center shadow-sm dark:border-gray-800 dark:bg-gray-900 sm:flex-row sm:text-left"
+			>
+				<div>
+					<h2
+						class={`text-lg sm:text-xl ${theme.sectionHeadingClass}`}
+					>
+						Resume / CV
+					</h2>
+					<p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+						Want the full picture? Download my CV with experience,
+						skills, and projects.
+					</p>
+				</div>
+				<a
+					href={cv.file}
+					download
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-flex items-center justify-center rounded-full bg-gradient-to-r px-5 py-2 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900"
+				>
+					<i class="fa-solid fa-file-arrow-down mr-2"></i>
+					<span>{cv.label}</span>
+				</a>
+			</div>
+		</div>
 	</main>
 	<footer class="mt-12 py-6 border-t border-gray-200 dark:border-gray-800">
 		<div
