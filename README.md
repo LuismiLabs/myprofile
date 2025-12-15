@@ -1,4 +1,4 @@
-# Luis (xLuisCumbi) - Personal Profile Website
+# Luis (luismilabs) - Personal Profile Website
 
 This is the source code for my personal profile website, showcasing my professional journey, investments, and community initiatives.
 

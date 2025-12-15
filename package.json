@@ -1,9 +1,9 @@
 {
-  "name": "xluiscumbi-profile",
+  "name": "luismilabs-profile",
   "type": "module",
   "version": "1.0.0",
-  "description": "Personal profile website for Luis (xLuisCumbi) - Web developer, investor and entrepreneur",
-  "author": "Luis (xLuisCumbi)",
+  "description": "Personal profile website for Luis (luismilabs) - Web developer, investor and entrepreneur",
+  "author": "Luis (luismilabs)",
   "homepage": "https://luis.cumbi.co",
   "scripts": {
     "dev": "astro dev",
